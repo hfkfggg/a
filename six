@@ -1,0 +1,12 @@
+package six;
+public class h {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				System.out.println("Miles\tKilometers  Kilometers  Miles");
+				for(double a = 1,b = 20;a <= 10 && b <= 65;a += 1,b += 5)
+					System.out.printf("%.1f\t%.1f\t\t%.1f\t%.2f\n", a, Conversion.mileToKilometer(a),b, Conversion.kilometerToMile(b));}} 
+		class Conversion{
+			public static double mileToKilometer(double m) {
+				return m * 1.6;}
+			public static double kilometerToMile(double km) {
+				return km / 1.6;}}
